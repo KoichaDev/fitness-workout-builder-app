@@ -1,0 +1,5 @@
+@import "./../root.css";
+
+li {
+    list-style-type: var(--li-remove-dot)
+}
