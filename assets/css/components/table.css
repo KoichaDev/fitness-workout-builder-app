@@ -1,5 +1,1 @@
-@import "./../root.css";
-
-li {
-    list-style-type: var(--li-remove-dot)
-}
+@import './../abstract/table-variables.css';
