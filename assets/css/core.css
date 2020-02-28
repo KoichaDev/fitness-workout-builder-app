@@ -19,6 +19,7 @@
 @import './base/animation.css';
 @import './base/reset.css';
 @import './base/typography.css';
+@import './base/utilities.css';
 
 /*
  * COMPONENTS 
@@ -39,4 +40,6 @@
 @import './layouts/aside.css';
 @import './layouts/body.css';
 @import './layouts/footer.css';
+@import './layouts/grid.css';
 @import './layouts/header.css';
+@import './layouts/main.css';

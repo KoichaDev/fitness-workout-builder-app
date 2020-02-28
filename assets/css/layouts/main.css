@@ -1,0 +1,4 @@
+@import './body.css';
+main {
+  grid-area: main;
+}

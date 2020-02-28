@@ -1,5 +1,7 @@
-@import './../abstract/input-variables.css';
-
 input {
   border-radius: 0.3rem;
+}
+
+.rm-border {
+  border: 0;
 }
