@@ -1,10 +1,7 @@
 aside {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  background-color: #eee;
-  width: 25%;
-  border-right: 1px solid #ddd;
+  grid-area: aside;
+  background-color: #eeeeee;
+  padding-right: 1px solid #ddd;
 }
 
 aside > * {
@@ -13,7 +10,6 @@ aside > * {
 }
 
 .hide-menu {
-  border-top: 1px solid #ddd;
   position: fixed;
   bottom: 0;
   width: 24%;

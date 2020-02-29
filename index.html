@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/core.css" />
 
     <!-- Font Awesome CDN -->
     <script
       src="https://kit.fontawesome.com/b3ce871dc0.js"
       crossorigin="anonymous"
     ></script>
-
+    <!-- JS for Fitness Workout Builder App -->
     <script src="assets/js/main.js" type="module" defer></script>
 
     <title>Koicha - Fitness Builder App</title>
@@ -30,8 +30,85 @@
         >
       </section>
     </aside>
-    <header></header>
-    <main></main>
+    <header>
+      <h1>Workout Program</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="table table-bordered table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>TRAINING DAY 1 EXERCISES</th>
+                <th>REST</th>
+                <th>TEMPO</th>
+                <th>SETS</th>
+                <th>REPS</th>
+                <th>LOAD</th>
+                <th>RPE</th>
+                <th>NOTES</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <input
+                    type="text"
+                    class="rm-border"
+                    placeholder=" Add Exercise"
+                  />
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    class="rm-border"
+                    placeholder=" Add Rest Time"
+                  />
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    class="rm-border"
+                    placeholder=" Add Tempo"
+                  />
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    class="rm-border"
+                    placeholder=" Add Sets"
+                  />
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    class="rm-border"
+                    placeholder=" Add Reps"
+                  />
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    class="rm-border"
+                    placeholder=" Add Load"
+                  />
+                </td>
+                <td>
+                  <input type="text" class="rm-border" placeholder=" Add RPE" />
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    class="rm-border"
+                    placeholder=" Add Notes"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
